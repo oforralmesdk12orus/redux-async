@@ -1,6 +1,6 @@
 import selectedReddit from './selectedReddit'
 import {
-  SELECT_REDDIT
+  SELECT_REDDIT,
 } from '../actions'
 
 describe('selectedReddit reducer', () => {
@@ -25,7 +25,7 @@ describe('selectedReddit reducer', () => {
 
     let action = {
       type: SELECT_REDDIT,
-      reddit: 'redux'
+      reddit: 'redux',
     }
 
     let actual = selectedReddit(state, action)
