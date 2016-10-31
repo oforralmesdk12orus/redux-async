@@ -1,5 +1,5 @@
 import {
-  SELECT_REDDIT
+  SELECT_REDDIT,
 } from '../actions'
 
 const initialState = 'reactjs'
