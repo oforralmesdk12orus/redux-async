@@ -4,6 +4,7 @@ import {
 } from '../actions'
 
 describe('selectedReddit reducer', () => {
+
   it('should handle initial state', () => {
 
     let expected = 'reactjs'
@@ -15,6 +16,7 @@ describe('selectedReddit reducer', () => {
     let actual = selectedReddit(state, action)
 
     expect(actual).toEqual(expected)
+
   })
 
   it('should handle SELECT_REDDIT', () => {
@@ -31,5 +33,7 @@ describe('selectedReddit reducer', () => {
     let actual = selectedReddit(state, action)
 
     expect(actual).toEqual(expected)
+
   })
+
 })
